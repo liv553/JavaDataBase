@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="coursejdbc:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/coursejdbc_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="coursejdbc/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="coursejdbc:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="mysql-connector-j-8.1.0" />
+      </element>
+    </root>
+  </artifact>
+</component>
